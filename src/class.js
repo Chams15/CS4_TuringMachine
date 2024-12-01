@@ -7,7 +7,7 @@ class Head {
     }
 
     get status() {
-        return `head state: ${this.state} | location: ${this.location}`
+        return `current state: ${this.state} | location: ${this.location}`
     }
 
     update(state, location) {
